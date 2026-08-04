@@ -1390,148 +1390,43 @@
         </div>
     </section>
 
-    <!-- CTA SECTION / CONTACT FORM -->
+  <!-- CTA SECTION / MESSENGER LINK -->
     <section class="contact" id="contact">
         <div class="container">
             <div class="contact-grid">
                 <div class="contact-info">
-                    <h2 class="contact-info-title">Остались вопросы?</h2>
-                    <p class="contact-info-p">Запишитесь на бесплатную диагностику. Мы свяжемся с вами, чтобы обсудить текущий уровень ребёнка и подобрать оптимальный формат занятий.</p>
-                    
+                    <h2 class="contact-info-title">Готовы выстроить понятную систему знаний?</h2>
+                    <p class="contact-info-p">
+                        Запишитесь на бесплатное вводное занятие или диагностику знаний. Мы определим текущий уровень ребёнка, найдём пробелы и составим пошаговый план обучения.
+                    </p>
                     <div class="contact-details">
                         <div class="contact-detail-item">
                             <div class="contact-detail-icon">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                             </div>
                             <div class="contact-detail-text">
-                                <span>Телефон / Мессенджеры</span>
-                                <a href="#">+7 914 26-26-02</a>
+                                <span>Прямая связь:</span>
+                                <a href="#">Написать преподавателю</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Форма обратной связи -->
-                <div class="form-container">
-                    <h3 class="form-title">Запись на занятие</h3>
-                    <p class="form-subtitle">Заполните данные, и я свяжусь с вами в ближайшее время</p>
-                    
-                    <form id="google-sheet-form">
-                        <div class="form-grid">
-                            <label class="form-label" for="parent-name">Имя родителя</label>
-                            <input class="form-input" type="text" id="parent-name" name="name" placeholder="Например, Анна" required>
-                        </div>
-                        
-                        <div class="form-grid">
-                            <label class="form-label" for="contact-info">Телефон / MAX / TG </label>
-                            <input class="form-input" type="text" id="contact-info" name="contact" placeholder="+7 (999) 00-00-00 или @username" required>
-                        </div>
-
-                        <div class="form-grid">
-                            <label class="form-label" for="subject">Предмет</label>
-                            <select class="form-select" id="subject" name="subject" required>
-                                <option value="" disabled selected>Выберите предмет</option>
-                                <option value="Математика">Математика</option>
-                                <option value="Физика">Физика</option>
-                                <option value="Оба предмета">Оба предмета</option>
-                            </select>
-                        </div>
-
-                        <div class="form-grid">
-                            <label class="form-label" for="focus">Выбранная проблема / Класс</label>
-                            <input class="form-input" type="text" id="focus" name="focus" placeholder="Например: 7 класс, не понимает дроби" required>
-                        </div>
-
-                        <div class="form-grid">
-                            <label class="form-label" for="goal">Цель занятий</label>
-                            <input class="form-input" type="text" id="goal" name="goal" placeholder="Подготовка к ОГЭ, повысить успеваемость" required>
-                        </div>
-
-                        <button type="submit" class="btn btn-primary" id="submit-btn" style="width: 100%; margin-top: 10px;">
-                            Отправить заявку
-                        </button>
-                        
-                        <!-- Блок для вывода сообщений об успехе/ошибке -->
-                        <div id="form-message" style="display: none; margin-top: 16px; font-size: 14px; font-weight: 500; text-align: center;"></div>
-                    </form>
+                <div class="form-container" style="text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 48px 32px;">
+                    <div style="width: 64px; height: 64px; border-radius: 50%; background-color: rgba(249, 115, 22, 0.15); border: 1px solid rgba(249, 115, 22, 0.3); display: flex; align-items: center; justify-content: center; margin-bottom: 20px;">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="var(--secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <h3 class="form-title" style="font-size: 24px; margin-bottom: 12px;">Запись через мессенджер</h3>
+                    <p class="form-subtitle" style="margin-bottom: 32px; max-width: 360px;">
+                        Перейдите в Max, чтобы задать любые вопросы и согласовать удобное время для первого урока.
+                    </p>
+                    <a href="https://max.ru" target="_blank" class="btn btn-accent" style="width: 100%; max-width: 320px; padding: 16px 24px; font-size: 16px; gap: 10px;">
+                        <span>Написать в Max</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- FOOTER -->
-    <footer>
-        <div class="container">
-            <div>&copy; 2026 KESchool. Все права защищены.</div>
-            <div class="footer-socials">
-                <a href="#" class="social-link">MAX</a>
-                <a href="#" class="social-link">VK</a>
-            </div>
-        </div>
-    </footer>
-
-    <!-- Скрипт отправки данных в Google Таблицу -->
-    <script>
-        document.getElementById('google-sheet-form').addEventListener('submit', function(e) {
-            e.preventDefault(); // Останавливаем стандартную перезагрузку страницы
-            
-            const form = this;
-            const submitBtn = document.getElementById('submit-btn');
-            const messageBox = document.getElementById('form-message');
-            
-            // ВАЖНО: Вставьте сюда URL вашего развернутого веб-приложения Google Apps Script
-            const scriptURL ='https://script.google.com/macros/s/AKfycby9ZBOOX0FrNx2aPtOoPT4dvxecSwgTyMWKTzGNRKOajNrFplPTa9od7PBOxkVFwb4V/exec';
-            
-            // Собираем данные в объект с ключами, которые ждет ваш doPost (name, contact, subject, focus, goal)
-            const formData = {
-                name: form.name.value,
-                contact: form.contact.value,
-                subject: form.subject.value,
-                focus: form.focus.value,
-                goal: form.goal.value
-            };
-
-            // Визуальная индикация загрузки
-            submitBtn.disabled = true;
-            submitBtn.innerHTML = 'Отправка...';
-            messageBox.style.display = 'none';
-
-            // Отправляем POST запрос
-            // Используем 'text/plain', чтобы избежать проблемы с CORS (Preflight OPTIONS запрос),
-            // Google Apps Script нормально прочитает это через e.postData.contents
-            fetch(scriptURL, {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'text/plain;charset=utf-8',
-                },
-                body: JSON.stringify(formData)
-            })
-            .then(response => response.json())
-            .then(data => {
-                if(data.result === 'success') {
-                    // Успешная отправка
-                    messageBox.innerHTML = 'Заявка успешно отправлена! Я свяжусь с вами в ближайшее время.';
-                    messageBox.style.color = '#10b981'; // Зеленый цвет (Electric emerald)
-                    messageBox.style.display = 'block';
-                    form.reset(); // Очищаем форму
-                } else {
-                    throw new Error('Server returned error');
-                }
-            })
-            .catch(error => {
-                // Ошибка
-                console.error('Ошибка!', error.message);
-                messageBox.innerHTML = 'Произошла ошибка при отправке. Пожалуйста, попробуйте позже или напишите напрямую в мессенджер.';
-                messageBox.style.color = '#ef4444'; // Красный цвет (Warning red)
-                messageBox.style.display = 'block';
-            })
-            .finally(() => {
-                // Возвращаем кнопку в исходное состояние
-                submitBtn.disabled = false;
-                submitBtn.innerHTML = 'Отправить заявку';
-            });
-        });
-    </script>
-
 </body>
 </html>
